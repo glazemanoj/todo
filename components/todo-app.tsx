@@ -44,7 +44,7 @@ export default function TodoApp() {
           placeholder="Add a new todo"
           className="flex-grow mr-2"
         />
-        <Button onClick={addTodo}>Add Task</Button>
+        <Button onClick={addTodo} variant="default" className="bg-blue-500 hover:bg-blue-600">Add Task</Button>
       </div>
       <ul className="space-y-2">
         {todos.map(todo => (
